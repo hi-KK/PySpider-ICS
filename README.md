@@ -1,5 +1,7 @@
 # PySpider-ICS
 
+## 对大佬有帮助的话就给个Star吧！
+
 ### 说明
 
 此项目用来记录使用pyspider爬虫框架爬取工控相关数据(漏洞、预警、安全事件等)
@@ -28,9 +30,9 @@ https://new.siemens.com/global/en/products/services/cert.html#SecurityPublicatio
 
 ![1552027071451](assets/1552027071451.png)
 
-针对西门子CERT，直接对其https://cert-portal.siemens.com/productcert/json/advisories.json的json数据接口进行解析，额外查询了pyspider对json数据解析的方法：http://docs.pyspider.org/en/latest/apis/self.send_message/
+针对西门子CERT，直接对其https://cert-portal.siemens.com/productcert/json/advisories.json 的json数据接口进行解析，额外查询了pyspider对json数据解析的方法：http://docs.pyspider.org/en/latest/apis/self.send_message/
 
-*利用send_message，将单个页面的多个结果，for循环后，每个dict结果，都调用send_message去发送message给自己的项目，在收到message的地方，再返回dict结果。*
+**利用send_message，将单个页面的多个结果，for循环后，每个dict结果，都调用send_message去发送message给自己的项目，在收到message的地方，再返回dict结果。**
 
 #### 工业互联网安全应急响应中心
 
